@@ -1,0 +1,4 @@
+/* componts/test/test.wxss */
+.fw{
+  font-weight: bold;
+}

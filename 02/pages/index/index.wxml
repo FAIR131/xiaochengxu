@@ -1,0 +1,12 @@
+<view>
+  {{info}}
+</view>
+
+<image src="{{imgSrc}}" mode="widthFix"/>
+
+<view>
+  {{randomNum1>=5?'大于':'小于'}}
+</view>
+<view>
+  {{randomNum2*100}}
+</view>

@@ -1,0 +1,8 @@
+/* componts/test3/test3.wxss */
+.colorBox{
+line-height: 200rpx;
+font-size: 24rpx;
+color: white;
+box-shadow: 0 0 2rpx black;
+text-align: center;
+}

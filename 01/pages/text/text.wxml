@@ -1,0 +1,6 @@
+
+<view>
+  手机号：<text user-select>13334563456</text>
+</view>
+
+<rich-text nodes="<h1 style='color:red'>标题</h1>"/>

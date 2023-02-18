@@ -1,0 +1,21 @@
+/* pages/swipoper/swiper.wxss */
+.container3{
+  height: 150px;
+/* background-color: pink; */
+}
+
+.item{
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+} 
+
+swiper swiper-item:nth-child(1){
+  background-color: plum;
+}
+swiper swiper-item:nth-child(2){
+  background-color: gold;
+}
+swiper swiper-item:nth-child(3){
+  background-color: chocolate;
+}

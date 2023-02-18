@@ -1,0 +1,34 @@
+/* pages/list/list.wxss */
+.container1{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: pink; */
+}
+
+.container1 view,
+.container2 view{
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 100px;
+}
+
+.container1 view:nth-child(1),
+.container2 view:nth-child(1){
+  background-color: plum;
+}
+.container2 view:nth-child(2),
+.container1 view:nth-child(2){
+  background-color: gold;
+}
+.container2 view:nth-child(3),
+.container1 view:nth-child(3){
+  background-color: palegreen;
+}
+
+.container2{
+  margin-top: 30px;
+  width: 100px;
+  height: 120px;
+  border: 1px solid #000;
+}

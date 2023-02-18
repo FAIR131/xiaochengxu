@@ -1,0 +1,10 @@
+<!--pages/event/event.wxml-->
+<text>pages/event/event.wxml</text>
+
+<button type="primary" bindtap="btnTapHander">按钮</button>
+<button type="primary" bindtap="countChange">+1</button>
+<button type="primary" bindtap="countChange2" data-info="{{2}}">+2</button>
+
+<input type="text" bindinput="inputHandler"/>
+
+<input value="{{msg}}" type="text" bindinput="inputHandler2"/>

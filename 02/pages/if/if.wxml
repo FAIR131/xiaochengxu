@@ -1,0 +1,78 @@
+<view wx:if="{{type===1}}">男</view>
+<view wx:elif="{{type===2}}">女</view>
+<view wx:else>未知</view>
+
+<block wx:if="{{false}}">
+<view>1</view>
+<view>2</view>
+</block>
+
+<view hidden="true">
+  12343
+</view>
+
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+<view wx:for="{{arr1}}">
+  索引是：{{index}},
+  内容是：{{item}}
+</view>
+
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">
+  索引是：{{index}},
+  姓名是：{{item.name}}
+</view>
